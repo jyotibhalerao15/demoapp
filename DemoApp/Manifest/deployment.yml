@@ -19,8 +19,8 @@ spec:
               image: sanjacrdemo.azurecr.io/demoasp:latest
               ports:
               - containerPort: 80
-            imagePullSecrets:
-            - name: sanjacrdemo
+           -- imagePullSecrets:
+        --    - name: sanjacrdemo
 ---
 apiVersion: v1
 kind: Service
