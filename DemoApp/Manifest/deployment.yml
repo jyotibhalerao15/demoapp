@@ -16,7 +16,7 @@ spec:
         spec:
             containers:
             - name: k8s-demo
-              image: sanjacrdemo.azurecr.io/aspdemo:19
+              image: sanjacrdemo.azurecr.io/aspdemo:latest
               imagePullPolicy: "Always"
               ports:
               - containerPort: 80
