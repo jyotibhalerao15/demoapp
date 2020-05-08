@@ -21,7 +21,7 @@ spec:
               ports:
               - containerPort: 80
             imagePullSecrets:
-            - name: sanjacrdemo
+            - name: acr-secret
 ---
 apiVersion: v1
 kind: Service
